@@ -1,0 +1,101 @@
+body {
+    font-family: "courier new", monospace, sans-serif;
+    font-size: 1.2em;
+}
+
+span {
+    font-size: 1.2em;
+    background-color: rgba(218, 84, 0, 1);
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#section1 {
+    background-color: rgba(46, 134, 193, 1);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: 
+    "h1 h1 im";
+    padding: 2%;
+}
+
+#div-h1 {
+    grid-area: h1;
+    padding-top: 25%;
+    padding-left: 5%;
+}
+
+h1 {
+    margin: 0.1em;
+    padding-left: 6%;
+}
+
+h2 {
+    margin: 0.1em;
+}
+
+#p-section1 {
+    margin-top: 2em;
+}
+
+#div-img {
+    grid-area: im;
+}
+
+#content-image1 {
+    width: 100%;
+    height: 100%;
+}
+
+#content-image2 {
+    padding: 5%;
+    width: 80%;
+    height: 80%;
+}
+
+#section2 {
+    background-color: rgba(242, 244, 244, 1);
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: 
+    "dsi dst dst";
+    align-items: center;
+}
+
+#div-sec2-img {
+    grid-area: dsi;
+}
+
+#div-sec2-text {
+    grid-area: dst;
+    padding: 10%;
+}
+
+#p-info {
+    font-size: 0.2;
+}
+
+footer {
+    background-color: rgba(127, 140, 141, 1);
+    font-size: 1.2em;
+}
+
+#lik {
+    width: 90px;
+    height: 80px;
+}
+
+#twi {
+    width: 80px;
+    height: 80px;
+}
+
+#div-footer {
+    padding: 5%;
+    font-size: 1.1em;
+}
+
+#footer-p {
+    margin-top: 0px;
+}
