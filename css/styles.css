@@ -8,74 +8,72 @@ body {
 span {
     font-size: 1.2em;
     background-color: rgba(218, 84, 0, 1);
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
 }
 
 #section1 {
     background-color: rgba(46, 134, 193, 1);
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-areas: 
-    "h1 h1 im";
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 #div-h1 {
-    grid-area: h1;
-    padding-top: 25%;
-    padding-left: 5%;
+    width: 66%;
+    height: 66%;
+    min-width: 450px;
+    margin-top: 10%;
 }
 
 h1 {
-    margin: 0.1em;
-    padding-left: 6%;
+    margin: 0px;
+    padding-left: 20%;
 }
 
 h2 {
-    margin: 0.1em;
+    margin: 0px;
+    padding-left: 10%;
 }
 
 #p-section1 {
-    margin-top: 2em;
+    padding-left: 10%;
+    padding-right: 5%;
 }
 
 #div-img {
-    grid-area: im;
+    width: 33%;
+    height: 33%;
+    min-width: 250px;
 }
 
 #content-image1 {
-    width: 100%;
+    width: 101.5%;
     height: 100%;
-}
-
-#content-image2 {
-    padding: 5%;
-    width: 80%;
-    height: 80%;
 }
 
 #section2 {
     background-color: rgba(242, 244, 244, 1);
     font-size: 0.8em;
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-areas: 
-    "dsi dst dst";
-    align-items: center;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    align-content: center;
+    padding: 3%;
 }
 
 #div-sec2-img {
-    grid-area: dsi;
+    width: 33%;
+}
+
+#content-image2 {
+    width: 100%;
 }
 
 #div-sec2-text {
-    grid-area: dst;
-    padding: 10%;
+    width: 50%;
 }
 
-#p-info {
-    font-size: 0.2;
-}
 
 footer {
     background-color: rgba(127, 140, 141, 1);
@@ -101,30 +99,38 @@ footer {
     margin-top: 0px;
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
     #section1 {
         background-color: rgba(46, 134, 193, 1);
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-rows: minmax(498px, 1fr);
         grid-template-areas: 
         "h1"
         "h1" 
         "im";
+        align-content: stretch;
+        border: 2px solid  rgba(242, 244, 244, 1);
     }
+
     #section2 {
         background-color: rgba(242, 244, 244, 1);
         font-size: 0.8em;
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-rows:  minmax(498px, 1fr);
         grid-template-areas: 
         "dsi"
         "dst"
         "dst";
-        align-items: center;
-        width: 100%;
     }
 
     #div-h1 {
-        width: 100%
+        border: 1px solid black;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0px;
     }
-}
+
+    #div-img {
+        border: 1px solid black;
+    }
+} */
