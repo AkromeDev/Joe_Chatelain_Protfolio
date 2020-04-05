@@ -19,7 +19,7 @@ span {
     justify-content: center;
 }
 
-#div-h1 {
+#div-sec1-text {
     width: 66%;
     height: 66%;
     min-width: 450px;
@@ -44,7 +44,7 @@ h2 {
     padding-right: 5%;
 }
 
-#div-img {
+#div-sec1-img {
     width: 33%;
     height: 33%;
     min-width: 250px;
@@ -112,16 +112,16 @@ footer {
         padding: 3%;
     }
 
-    #div-h1 {
+    #div-sec1-text {
         padding: 0px;
         margin: 5%;
         width: 100%;
     }
 
-    #div-img {
+    #div-sec1-img {
         padding: 0px;
         margin: 0px;
-        width: 40%;
+        width: 45%;
         align-self: center;
     }
 
