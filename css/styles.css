@@ -7,13 +7,21 @@ body {
 
 span {
     font-size: 1.2em;
-    background-color: rgba(218, 84, 0, 1);
+    background-color: rgba(255, 87, 51, 1);
     padding-right: 1.2em;
     padding-left: 1.2em;
 }
 
+#span-in-text {
+    font-size: 1em;
+    background-color: rgba(255, 87, 51, 0.1);
+    padding-right: .2em;
+    padding-left: .2em;
+}
+
 #section1 {
-    background-color: rgba(46, 134, 193, 1);
+    background-color: rgba(27, 33, 44, 1);
+    color: rgba(202, 214, 214, 1);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -28,7 +36,7 @@ span {
 
 h1 {
     margin: 0px;
-    padding-left: 20%;
+    padding-left: 18%;
 }
 
 h2 {
@@ -72,12 +80,13 @@ h2 {
 
 #content-image2 {
     width: 100%;
-    padding-top: 9%;
+    padding-top: 3%;
 }
 
 #div-sec2-text {
     width: 50%;
     min-width: 490px;
+    padding-top:0.8%
 }
 
 footer {
